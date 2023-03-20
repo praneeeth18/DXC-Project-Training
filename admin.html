@@ -3,7 +3,7 @@
   <head>
     <title>Admin Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="css/style1.css">
   </head>
   <body>
     <div class="container">
@@ -11,18 +11,18 @@
       <form>
         <div class="form-group">
           <label for="email">Email address:</label>
-          <input type="email" class="form-control" required pattern="[A-Z]{2}-(0-9){3}[a-z]{30}-[^A-Za-z0-9]{3}" id="email" placeholder="Enter email">
+          <input type="email" class="form-control" required pattern="[a-z]{40}-(0-9){3}-[^A-Za-z0-9]{3}" id="email" placeholder="Enter email">
           <div class="error" id="email-error"></div>
         </div>
         <div class="form-group">
           <label for="password">Password:</label>
-          <input type="password" class="form-control" required pattern="[A-Z]{2}-(0-9){3}[a-z]{30}-[^A-Za-z0-9]{3}" id="password" placeholder="Enter password">
+          <input type="password" class="form-control" required pattern="(0-9){3}[a-z]{30}-[^A-Za-z0-9]{3}" id="password" placeholder="Enter password">
           <div class="error" id="password-error"></div>
         </div>
         <input type="submit" value="Login" class="btn btn-primary">
       </form>
     </div>
     
-    <script src="script.js"></script>
+    <script src="javascript/script.js"></script>
   </body>
 </html>
