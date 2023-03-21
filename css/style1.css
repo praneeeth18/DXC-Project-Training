@@ -1,8 +1,10 @@
 body {
-  background-image: url("/images/bg_img_2.jpg");
+  /* background-image: url("/images/bg_img_2.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-image: url("/images/bgpattern2.jpg");
+  background-size: cover;
 }
 
 .container1 {
@@ -36,7 +38,8 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  /* background-color: #4caf50; */
+  background-color: #7f4ece;
   color: white;
   padding: 12px 20px;
   margin: 8px 0;
@@ -47,7 +50,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  /* background-color: #45a049; */
+  background-color: #593692;
 }
 
 .error {

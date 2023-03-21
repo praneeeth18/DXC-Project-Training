@@ -7,7 +7,9 @@
 }
 body {
   min-height: 100vh;
-  background: #8bb77d;
+  /* background: #8bb77d; */
+  background-image: url("/images/bgpattern2.jpg");
+  background-size: cover;
 }
 .box {
   display: flex;

@@ -52,7 +52,7 @@
             type="email"
             class="form-control1"
             required
-            pattern="[A-Z]{2}-(0-9){3}[a-z]{30}-[^A-Za-z0-9]{3}"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             id="email"
             placeholder="Enter email"
           />
@@ -64,7 +64,7 @@
             type="password"
             class="form-control1"
             required
-            pattern="[A-Z]{2}-(0-9){3}[a-z]{30}-[^A-Za-z0-9]{3}"
+            pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}"
             id="password"
             placeholder="Enter password"
           />
